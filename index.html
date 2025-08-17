@@ -5,30 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- g font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/992a324739.js"
+      crossorigin="anonymous"
+    ></script>
     <title>p web</title>
+    <style>
+      .font-bebas {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
   </head>
-  <body class="mx-auto my-0 max-w-5xl">
-    <header>
-      <nav></nav>
-    </header>
-    <main class="mt-[50px]">
-      <section class="bg-[#FFFBF0] flex">
+  <body class="mx-auto my-0 max-w-6xl">
+    <header class="mt-[30px] bg-[#fffbf0]">
+      <nav class="flex items-center justify-between">
+        <figure class="flex items-center">
+          <img src="icons/Frame.png" alt="" />
+          <h1 class="font-bold text-2xl">
+            <span class="text-[#a4bc46]">Penguin </span>
+            <span class="text-[#363958]">Fashion</span>
+          </h1>
+        </figure>
         <div>
-          <h1 class="text-7xl font-normal uppercase mb-[24px]">
+          <ul class="flex gap-14 text-[#3c3c3c] text-[16px] font-medium">
+            <li>Home</li>
+            <li>Product</li>
+            <li>About us</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- banner section -->
+      <section class="flex items-center justify-between">
+        <div class="">
+          <h1 class="font-bebas text-7xl font-normal uppercase mb-[24px]">
             <span class="text-[#fabe4c]">Be the Penguins </span>
             <br /><span class="text-[#363958]">of Winter</span>
           </h1>
           <p class="mb-[24px]">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam odio
-            laborum illo cum explicabo aspernatur.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            <br />Totam odio laborum illo cum explicabo aspernatur.
           </p>
           <button
-            class="uppercase bg-emerald-900 px-[32px] py-[18px] rounded-lg  ">
+            class="uppercase bg-emerald-900 px-[32px] py-[18px] rounded-lg font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019] text-amber-50"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
             buy now
           </button>
         </div>
         <div>
           <img src="images/model.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1>woman Jacket</h1>
+        </div>
+        <div>
+          <div>
+            <figure>
+              <img src="images/jacket-1.png" alt="" />
+            </figure>
+            <h1>Ladies Jacket</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div>
+              <h3 class="">$234</h3>
+              <button
+                class="uppercase bg-emerald-900 px-[32px] py-[18px] rounded-lg font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019] text-amber-50"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                buy now
+              </button>
+            </div>
+          </div>
+          <div></div>
+          <div></div>
         </div>
       </section>
     </main>
